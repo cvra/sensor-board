@@ -1,0 +1,48 @@
+Source,D:/Rouven/robotique/VL68L1X-tof-color-sensor-board-master/tof-sensor-board.sch
+Kicad Rev,Eeschema 4.0.7
+Generated Date,19.02.2018 17:02:16
+
+Title,VL6180X Time of flight and color sensor board
+Company,CVRA
+Revision,A
+Date Issue,01.01.2018
+Comment,& Rouven Althaus
+Comment,Designed by Salah-Eddine Missri & Michael Spieler
+
+Reference,Value,Library,Library Ref
+C8,10pF,device,C_Small
+C9,10pF,device,C_Small
+C2,0.1uF,device,C
+X1,16MHz,_div,XTAL-SMD-4-PADS
+D2,LTST-S270KGKT,tof-sensor-board-rescue,LED-RESCUE-tof-sensor-board
+D3,LTST-S270KRKT,tof-sensor-board-rescue,LED-RESCUE-tof-sensor-board
+R6,1k,device,R
+R7,1k,device,R
+R3,4.7k,device,R
+R4,4.7k,device,R
+C14,4.7uF,device,C
+R9,47k,device,R
+U2,LTC2875IDD#PBF,_div,LTC2875
+R8,1k,device,R
+C11,0.1uF,device,C
+CONN2,CAN,_connectors,CAN
+CONN3,CAN,_connectors,CAN
+CONN1,SWD/DEBUG,_connectors,SWD/DEBUG
+C3,0.1uF,device,C
+C7,0.1uF,device,C
+C1,4.7uF,device,C
+C4,1uF,device,C
+C5,10uF,device,C
+C13,0.1uF,device,C
+R1,47k,device,R
+U1,STM32F302K8U6,_stm32,STM32F302K8U6
+MEC2,MEC,Mec,MEC
+MEC1,MEC,Mec,MEC
+U4,VL6180X,_sensors,VL6180X
+D1,Light,tof-sensor-board-rescue,LED-RESCUE-tof-sensor-board
+R5,1k,device,R
+R2,47k,device,R
+Q1,BSS138,transistors,BSS138
+C6,0.1uF,device,C
+U5,TCS3472X,_sensors,TCS3472X
+U3,MCP1703-MB,_linear-regulators,MCP1703-MB

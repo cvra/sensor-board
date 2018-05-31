@@ -22,7 +22,7 @@
 
   (layers
     (0 F.Cu signal)
-    (31 B.Cu signal hide)
+    (31 B.Cu signal)
     (34 B.Paste user hide)
     (35 F.Paste user hide)
     (36 B.SilkS user)
@@ -70,7 +70,7 @@
     (pad_to_paste_clearance_ratio -0.05)
     (aux_axis_origin 38.6 58.6)
     (grid_origin 38.6 58.6)
-    (visible_elements 7FFE67C9)
+    (visible_elements 7FFEE7C9)
     (pcbplotparams
       (layerselection 0x00200_00000000)
       (usegerberextensions false)
